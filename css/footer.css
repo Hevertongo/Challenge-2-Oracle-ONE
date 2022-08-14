@@ -2,17 +2,30 @@ footer {
 	padding: 5px;
 	position:absolute;
    	bottom:5px;
-	max-width: 1160px;
-	height:30px;  
+   	left: 60%;
+	width: 24.5%;
+	height:45px;  
 }
 
-.creditos {
-	background: transparent;
+footer p {
+	font-family: 'Germania One', 'Arial';
+	text-align: right;
+	color: white;
+	font-size: 13px;
+	padding: 3px;
+}
+
+.creditos a{
+	position: relative;
+   	bottom:5px;
+   	left: 55%;
+	width: 30%;
+	height:25px;  
 }
 
 .creditos .logo {
 	height: 20px;
 	width: auto;
-	padding: 1%;
+	padding: 7px;
 
 }

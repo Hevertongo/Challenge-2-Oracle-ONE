@@ -1,17 +1,6 @@
-
-.body {
-    position: absolute;
-    top: 12.5%;
-    left: 200px;
-    width: 70%;
-    min-height: 80%;
-    background-color: #000000;
-    opacity: 70%;
-}
-
 .menuFundo {
     position: absolute;
-    top: 68%;
+    top: 66%;
     left: 20px;
     width: 180px;
     height: 153px;
@@ -21,7 +10,7 @@
 
 .menu {
    position: absolute;
-   top: 70%;
+   top: 67.5%;
    left: 10px;
     font-family: 'Germania One', 'Arial';
     font-size: 18px;

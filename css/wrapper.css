@@ -5,3 +5,13 @@
   background-size: auto;
   background-position: center;
 }
+
+.body {
+    position: absolute;
+    top: 12.5%;
+    left: 200px;
+    width: 70%;
+    min-height: 78%;
+    background-color: #000000;
+    opacity: 70%;
+}

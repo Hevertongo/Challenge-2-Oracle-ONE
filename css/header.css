@@ -1,0 +1,82 @@
+
+html {
+  background-color: #B9CAD0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 940px;
+}
+
+.banner {
+/*	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+*/	
+	display: flex;	
+	justify-content: space-between;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+.banner .logo {
+	height: 35px;
+	width: auto;
+	padding: 1%;
+	margin-top: 1%;
+} 
+
+.banner h1 {
+	/*color: #CACACA;*/
+	vertical-align: top;
+	font-family: 'Germania One', 'Arial';
+	font-size: 30px;
+	padding: 1%;
+	margin-top: 1.5%;
+}
+
+.banner img {
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	height: 75px;
+	width: auto;
+}
+
+.menu {
+	font-family: 'Germania One', 'Arial';
+	font-size: 18px;
+	color: #B8C9CF;
+	padding: 3px;
+	margin-left: 0%;
+	margin-top: 16%;
+	margin-right: 80%;
+}
+
+.menu .menuOpc {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.menu .menuOpc .menuDescr {
+	width: 78%;
+	margin-right: 5%;
+	text-align: right;
+}
+
+.menu .menuOpc .menuDescr:hover {
+	color: white;
+	font-size: 22px;
+  cursor: pointer;
+}
+
+.menu .menuOpc .menuDescr:hover + .menuIcon img {
+	width: 30px;
+	height: 30px;
+}
+
+
+.menu .menuOpc .menuIcon img{
+	width: 25px;
+	height: 23px;
+}
+
+
+

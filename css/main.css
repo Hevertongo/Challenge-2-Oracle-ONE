@@ -8,3 +8,57 @@
     background-color: #000000;
     opacity: 70%;
 }
+
+.menuFundo {
+    position: absolute;
+    top: 68%;
+    left: 20px;
+    width: 180px;
+    height: 153px;
+    background-color: #000000;
+    opacity: 70%;
+}
+
+.menu {
+   position: absolute;
+   top: 70%;
+   left: 10px;
+    font-family: 'Germania One', 'Arial';
+    font-size: 18px;
+    width: 180px;
+    color: #9FB3BC;
+}
+
+.menu .menuOpc {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.menu .menuOpc .menuDescr {
+    width: 78%;
+    text-align: right;
+}
+
+.menu .menuOpc .menuDescr:hover {
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    animation: expandir 0.5s, linear;
+}
+
+.menu .menuOpc .menuDescr:hover + .menuIcon img {
+    width: 35px;
+    height: 35px;
+}
+
+.menu .menuOpc .menuIcon img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.menu .menuOpc .menuIcon img{
+    width: 30px;
+    height: 30px;
+    margin-left: 20%;
+}

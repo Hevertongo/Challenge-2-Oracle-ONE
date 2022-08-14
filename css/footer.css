@@ -1,9 +1,17 @@
-.creditos {
+footer {
+	padding: 5px;
+	position:absolute;
+   	bottom:5px;
+	max-width: 1160px;
+	height:30px;  
+}
 
+.creditos {
+	background: transparent;
 }
 
 .creditos .logo {
-	height: 15px;
+	height: 20px;
 	width: auto;
 	padding: 1%;
 

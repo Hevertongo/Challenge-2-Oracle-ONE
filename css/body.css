@@ -1,1 +1,33 @@
+.hangMan {
+    width: 600px;
+    height: auto;
+    position: relative;
+    top: -80px;
+    left: 30%;
+    margin: 30px 0px 0px 0px;  
+    animation: surgir 1.5s linear;
+}
 
+.start {
+    width: 14%;
+    height: auto;
+    position: relative;
+    top: -120px;
+    left: 43%;
+    margin: 30px 0px 0px 0px;  
+    animation: surgir 1.5s linear;
+}
+
+
+
+@keyframes surgir {
+    0%{
+        transform: scale(0);
+    }
+    70%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

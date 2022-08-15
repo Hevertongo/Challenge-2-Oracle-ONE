@@ -4,8 +4,8 @@
     left: 20px;
     width: 180px;
     height: 153px;
-    background-color: #000000;
-    opacity: 50%;
+    background-color: #778055;
+    opacity: 80%;
 }
 
 .menu {
@@ -15,7 +15,7 @@
     font-family: 'Germania One', 'Arial';
     font-size: 18px;
     width: 180px;
-    color: #FFFFFF;
+    color: #2D3C5A;
 }
 
 .menu .menuOpc {

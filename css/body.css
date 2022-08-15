@@ -9,15 +9,18 @@
 }
 
 .start {
-    width: 14%;
-    height: auto;
+    width: auto;
+    height: 150px;
     position: relative;
     top: -120px;
     left: 43%;
     margin: 30px 0px 0px 0px;  
-    animation: surgir 1.5s linear;
 }
 
+.start:hover {
+  cursor: pointer;
+  animation: respirar 1s linear infinite;
+}
 
 
 @keyframes surgir {
@@ -26,6 +29,18 @@
     }
     70%{
         transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@keyframes respirar {
+    0%{
+        transform: scale(1);
+    }
+    70%{
+        transform: scale(1.1);
     }
     100%{
         transform: scale(1);

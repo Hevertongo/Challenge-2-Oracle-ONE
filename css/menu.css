@@ -15,6 +15,7 @@
     font-family: 'Germania One', 'Arial';
     font-size: 18px;
     width: 180px;
+    /*color: #2C4A79;*/
     color: #2D3C5A;
 }
 
@@ -44,6 +45,7 @@
 .menu .menuOpc .menuIcon img:hover {
     width: 35px;
     height: 35px;
+    cursor: pointer;
 }
 
 .menu .menuOpc .menuIcon img{

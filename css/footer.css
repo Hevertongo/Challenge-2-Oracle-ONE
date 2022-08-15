@@ -2,8 +2,8 @@ footer {
 	padding: 5px;
 	position:absolute;
    	bottom:5px;
-   	left: 60%;
-	width: 24.5%;
+   	left: 72%;
+	width: 12%;
 	height:45px;  
 }
 
@@ -16,16 +16,17 @@ footer p {
 }
 
 .creditos a{
-	position: relative;
+	position: inline-block;
    	bottom:5px;
    	left: 55%;
 	width: 30%;
-	height:25px;  
+	height:20px;  
 }
 
 .creditos .logo {
 	height: 20px;
 	width: auto;
-	padding: 7px;
-
+	padding: 2px;
+	margin-right: 5px;
+	margin-left: 5px;
 }

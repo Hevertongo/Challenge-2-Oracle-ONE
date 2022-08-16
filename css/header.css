@@ -1,41 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-.banner {
+.header {
 	display: flex;	
 	justify-content: space-between;
-	margin-left: 3%;
-	margin-right: 3%;
-	background: transparent;
-}
-
-.banner .logo {
-	height: 35px;
-	width: auto;
-	padding: 1%;
-	margin-top: 1%;
-	float: left;
-} 
-
-.banner h1 {
-	vertical-align: top;
-	font-family: 'Germania One', 'Arial';
-	color: #FFFFFF;
-  	font-size: 24px;
-	padding: 1%;
-	margin-top: 1.5%;
 	align-items: center;
 }
 
-.banner h1:hover {
-	animation: expandir 1s, linear;
-}
-
-.banner img {
-	display: flex;
-	justify-content: flex-end;
-	text-align: right;
-	height: 85px;
+.logoAlura {
+	height: 35px;
 	width: auto;
+} 
+
+.header h1 {
+	position: relative;
+	left: 125%;
+	font-family: 'Germania One', 'Arial';
+	/*color: #FCA120;*/
+	color: #FFFFFF;
+  	font-size: 24px;
 }
 
 @keyframes expandir {

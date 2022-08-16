@@ -1,27 +1,35 @@
+.esquerda {
+
+}
+
 .menuFundo {
-    position: absolute;
-    top: 66%;
-    left: 20px;
+    position: relative;
+    top: 0px;
+    left: 10px;
     width: 180px;
-    height: 153px;
-    background-color: #000000;
-    opacity: 70%;
+    height: 160px;
+    background-color: #778055;
+    opacity: 90%;
 }
 
 .menu {
-   position: absolute;
-   top: 67.5%;
-   left: 10px;
+    position: absolute;
+    top: 68px;
+    left: 10px;
     font-family: 'Germania One', 'Arial';
     font-size: 18px;
     width: 180px;
-    color: #9FB3BC;
+    /*color: #2C4A79;*/
+    color: #2D3C5A;
+    /*color: #A6B8C2;*/
 }
 
 .menu .menuOpc {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
+    padding: 2px;
+    height: 35px;
 }
 
 .menu .menuOpc .menuDescr {
@@ -30,7 +38,7 @@
 }
 
 .menu .menuOpc .menuDescr:hover {
-    color: white;
+    color: #FCA120;
     font-size: 22px;
     cursor: pointer;
     animation: expandir 0.5s, linear;
@@ -44,6 +52,7 @@
 .menu .menuOpc .menuIcon img:hover {
     width: 35px;
     height: 35px;
+    cursor: pointer;
 }
 
 .menu .menuOpc .menuIcon img{

@@ -1,0 +1,20 @@
+.contato {
+    position: relative;
+    top: 50px;
+}
+
+.contato p {
+    vertical-align: text-top;
+    display: inline-block;
+    font-family: 'Germania One', 'Arial';
+    color: white;
+    font-size: 15px;
+    background: black;
+}
+
+.contato .logo {
+    height: 30px;
+    width: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+}

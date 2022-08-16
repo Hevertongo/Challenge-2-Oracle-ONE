@@ -1,3 +1,13 @@
+.principal {
+}
+
+.principalBox {
+    height: 540px;
+    width: 1050px;
+    background-color: #778055;
+    opacity: 70%;
+}
+
 .hangMan {
     width: 600px;
     height: auto;
@@ -22,13 +32,12 @@
   animation: respirar 1s linear infinite;
 }
 
-
 @keyframes surgir {
     0%{
-        transform: scale(0);
+        transform: scale(0.9);
     }
-    70%{
-        transform: scale(1.2);
+    20%{
+        transform: scale(1.1);
     }
     100%{
         transform: scale(1);
@@ -39,7 +48,7 @@
     0%{
         transform: scale(1);
     }
-    70%{
+    50%{
         transform: scale(1.1);
     }
     100%{

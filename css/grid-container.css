@@ -21,14 +21,14 @@ body {
     'social main main main main main'
     'right main main main main main';
   grid-template-columns: 180px 1fr 1fr 1fr 1fr 1fr;
-  background-color: #2196F3;
+  /*background-color: #2196F3;*/
   grid-gap: 10px;
   padding: 10px;
-  max-width: 1244px;
+  max-width: 1240px;
 }
 
 .grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+  /*background-color: rgba(255, 255, 255, 0.8);*/
   text-align: center;
   padding: 2px 0;
   font-size: 20px;

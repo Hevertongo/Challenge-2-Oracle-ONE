@@ -5,11 +5,11 @@
 .menuFundo {
     position: relative;
     top: 0px;
-    left: 10px;
-    width: 180px;
+    left: 0px;
+    width: 190px;
     height: 160px;
     background-color: #778055;
-    opacity: 90%;
+    opacity: 80%;
 }
 
 .menu {

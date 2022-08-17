@@ -1,35 +1,33 @@
 .principal {
+
 }
 
 .principalBox {
     height: 540px;
     width: 1050px;
     background-color: #778055;
-    opacity: 70%;
+    opacity: 65%;
+
 }
 
-.hangMan {
-    width: 600px;
+.gameLogo {
+    width: 35%;
     height: auto;
-    position: relative;
-    top: -80px;
-    left: 30%;
-    margin: 30px 0px 0px 0px;  
+    position: absolute;
+    top: 100px;
+    left: 40%;
     animation: surgir 1.5s linear;
 }
 
 .start {
-    width: auto;
-    height: 150px;
-    position: relative;
-    top: -120px;
-    left: 43%;
+    width: 10%;
+    height: auto;
+    position: absolute;
+    top: 350px;
+    left: 50%;
     margin: 30px 0px 0px 0px;  
-}
-
-.start:hover {
-  cursor: pointer;
-  animation: respirar 1s linear infinite;
+    cursor: pointer;
+    animation: respirar 3s linear infinite;
 }
 
 @keyframes surgir {

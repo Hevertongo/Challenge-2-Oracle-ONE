@@ -1,11 +1,10 @@
 .contato {
     position: relative;
-    top: 50px;
+    top: 200px;
 }
 
 .contato p {
     vertical-align: text-top;
-    display: inline-block;
     font-family: 'Germania One', 'Arial';
     color: white;
     font-size: 15px;
@@ -13,6 +12,7 @@
 }
 
 .contato .logo {
+    padding-top: 7px;
     height: 30px;
     width: auto;
     margin-right: 5px;

@@ -11,23 +11,56 @@
 }
 
 .gameLogo {
+    /*display: none;*/
     width: 35%;
     height: auto;
     position: absolute;
     top: 100px;
-    left: 40%;
+    left: 20%;
     animation: surgir 1.5s linear;
 }
 
-.start {
+.botaoStart {
+    /*display: none;*/
     width: 10%;
     height: auto;
     position: absolute;
-    top: 350px;
-    left: 50%;
+    top: 380px;
+    left: 30%;
     margin: 30px 0px 0px 0px;  
     cursor: pointer;
     animation: respirar 3s linear infinite;
+}
+
+.itemForca {
+
+}
+
+#carrasco {
+    display: ;
+    width: 380px;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    left: 210px;   
+}
+
+#cabeca, #tronco, #bracoDireito, #bracoEsquerdo, #pernaDireita, #pernaEsquerda {
+    display: ;
+    width: auto;
+    height: 150px;
+    position: absolute;
+    top: 200px;
+    left: 350px;
+}
+
+#palavraOculta {
+    font-family: 'Germania One', 'Arial';
+    font-size: 51px;
+    letter-spacing: 3px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
 }
 
 @keyframes surgir {

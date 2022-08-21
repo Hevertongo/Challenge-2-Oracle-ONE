@@ -12,7 +12,7 @@
 		<link rel="stylesheet" type="text/css" href="css/divCreditos.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Germania+One"/>
 		<link rel="stylesheet" type="text/css" href="">
-		<link rel="icon" href="img/forca.png">
+		<link rel="icon" href="img/faviconforca.png">
 		<style> body { background-image: url("img/medieval-town.jpeg"); } </style>
 	</head>
 	<body>
@@ -30,18 +30,34 @@
 		  		</div>
 	  			<div class="startBox">
 	  				<img src="img/hangman-game.png" class="gameLogo" id="gameLogo">
-	  				<img src="img/start.png" class="start" id="start">
+	  				<img src="img/start.png" class="botaoStart" id="botaoStart">
+	  			</div>
+	  			<div class="forcaArea">
+	  				<img src="img/forca-carrasco.png" class="itemForca" id="carrasco">
+	  				<img src="img/cabeca.png" class="itemForca" id="cabeca">
+	  				<img src="img/tronco.png" class="itemForca" id="tronco">
+	  				<img src="img/braco_direito.png" class="itemForca" id="bracoDireito">
+	  				<img src="img/braco_esquerdo.png" class="itemForca" id="bracoEsquerdo">
+	  				<img src="img/perna_direita.png" class="itemForca" id="pernaDireita">
+	  				<img src="img/perna_esquerda.png" class="itemForca" id="pernaEsquerda">
+	  			</div>
+	  			<div class="resutados">
+	  					<div id="palavraOculta">_ _ _ _ _ _</div>
+	  			</div>
+	  			<div class="areaTeclado">
+	  				<div class="linhaTeclas" id="tecladoLinha_1"></div>
+	  				<div class="linhaTeclas" id="tecladoLinha_2"></div>
+	  				<div class="linhaTeclas" id="tecladoLinha_3"></div>
 	  			</div>
 		  	</div>  
 		  	<div class="divMenu">
-				<div class="menuFundo"></div>
 				<div class="menu">
 					<div class="menuOpc">
 						<div class="menuDescr">Nova Palavra</div>
 						<div class="menuIcon"><img src="img/chat.png"></div>
 					</div>
 					<div class="menuOpc">
-						<div class="menuDescr">Corrige Palavra</div>
+						<div class="menuDescr">Ver Palavras</div>
 						<div class="menuIcon"><img src="img/setting.png"></div>
 					</div>
 					<div class="menuOpc">
@@ -49,7 +65,7 @@
 						<div class="menuIcon"><img src="img/next.png"></div>
 					</div>
 					<div class="menuOpc" id="endGame">
-						<div class="menuDescr">Finalizar Jogo</div>
+						<div class="menuDescr">Recomeçar</div>
 						<div class="menuIcon"><img src="img/game-over.png"></div>
 					</div>
 				</div>

@@ -2,61 +2,123 @@
 
 }
 
-.menuFundo {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 190px;
-    height: 160px;
-    background-color: #778055;
-    opacity: 80%;
-}
-
 .menu {
     position: absolute;
-    top: 68px;
+    top: 60px;
     left: 10px;
     font-family: 'Germania One', 'Arial';
     font-size: 18px;
     width: 180px;
-    /*color: #2C4A79;*/
     color: #2D3C5A;
-    /*color: #A6B8C2;*/
+
 }
 
-.menu .menuOpc {
+.menuOpc {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
-    padding: 2px;
+    text-transform: uppercase;
+    background-color: #778055;
+    width: 180px;
     height: 35px;
+    margin: 5px;
+    padding: 1px;
 }
 
-.menu .menuOpc .menuDescr {
+.menuDescr {
+    color: white;
     width: 78%;
-    text-align: right;
+    text-align: center;
+    letter-spacing: 1px;
 }
 
-.menu .menuOpc .menuDescr:hover {
-    color: #FCA120;
-    font-size: 22px;
-    cursor: pointer;
-    animation: expandir 0.5s, linear;
-}
-
-.menu .menuOpc .menuDescr:hover + .menuIcon img {
-    width: 35px;
-    height: 35px;
-}
-
-.menu .menuOpc .menuIcon img:hover {
-    width: 35px;
-    height: 35px;
-    cursor: pointer;
-}
-
-.menu .menuOpc .menuIcon img{
+.menu .menuOpc .menuIcon img {
     width: 30px;
     height: 30px;
     margin-left: 20%;
 }
+
+.menu .menuOpc .menuDescr:hover {
+    color: #FCA120;
+    font-size: 21px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.menu .menuOpc .menuDescr:hover + .menuIcon img {
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+.menuIcon img:hover {
+    transform: scale(1.2);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.menuIcon img:hover + .menuDescr{
+    transform: scale(1.2);
+    transition: 0.2s;
+}
+
+
+/*
+.menuOpc {
+    --c: #FCA120;
+    color: var(--c);
+    background-color: black;
+    font-size: 16px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width: 160px;
+    height: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Germania One', 'Arial';
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    margin: 10px;
+}
+
+.menuOpc span {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    background-color: var(--c);
+    transform: translateY(250%);
+    border-radius: 5%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+.menuOpc:hover {
+    color: black;
+}
+
+.menuOpc:hover span {
+    transform: translateY(0) scale(2);
+}
+
+.menuOpc span:nth-child(1) {
+    --n: 1;
+}
+
+.menuOpc span:nth-child(2) {
+    --n: 2;
+}
+
+.menuOpc span:nth-child(3) {
+    --n: 3;
+}
+
+.menuOpc span:nth-child(4) {
+    --n: 4;
+}
+*/

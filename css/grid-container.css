@@ -1,6 +1,6 @@
 body {
-  background-repeat: no-repeat;
-  background-size: 110%;
+	background-repeat: no-repeat;
+	background-size: 110%;
 }
 
 .header { grid-area: header; }
@@ -13,23 +13,24 @@ body {
 
 /* Nome Obrigatório da classe */
 .grid-container {
-  display: grid;
-  grid-template:
-    'header header header header header header'
-    'left main main main main main'
-    'left main main main main main'
-    'social main main main main main'
-    'right main main main main main';
-  grid-template-columns: 180px 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-  padding: 10px;
-  max-width: 1240px;
-  /*background-color: #2196F3;*/
+	display: grid;
+	grid-template:
+	'header header header header header header'
+	'left main main main main main'
+	'left main main main main main'
+	'social main main main main main'
+	'right main main main main main';
+	grid-template-columns: 150px 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 10px;
+	padding: 5px 10px;
+	max-width: 1240px;
+	min-width: 1240px;
+	/*background-color: #2196F3;*/
 }
 
 .grid-container > div {
-  /*background-color: rgba(255, 255, 255, 0.8);*/
-  text-align: center;
-  padding: 2px 0;
-  font-size: 20px;
+	/*background-color: rgba(255, 255, 255, 0.8);*/
+	text-align: center;
+	padding: 2px 0;
+	font-size: 20px;
 }

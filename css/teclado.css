@@ -1,0 +1,38 @@
+.areaTeclado {
+	position: absolute;
+	top: 360px;
+	left: 200px;
+	color: white;
+	font-size: 38px;
+	/*letter-spacing: 15px;*/
+}
+
+.linhaTeclas {
+	padding: 12px 0;
+}
+
+.linhaTeclas a {
+	padding: 0px 7px;
+	margin: 5px;
+	box-sizing: border-box;
+	border: 2px solid #333;
+	border-radius: 10px;
+	background: rgba(147, 110, 83, 0.7);
+
+}
+
+.linhaTeclas .letraCorreta {
+	cursor: default;
+	color: transparent;
+}
+
+.linhaTeclas .letraIncorreta {
+	cursor: default;
+	color: transparent;
+}
+
+a:hover {
+    color: #FCA120;
+    transition: 0.2s;
+    cursor: pointer;
+}

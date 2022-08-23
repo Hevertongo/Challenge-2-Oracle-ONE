@@ -1,5 +1,6 @@
 .principal {
-
+	font-family: 'Germania One', 'Arial';
+	letter-spacing: 2px;
 }
 
 .principalBox {
@@ -7,26 +8,24 @@
     width: 1050px;
     background-color: #778055;
     opacity: 65%;
-
+    z-index: -1;
 }
 
 .gameLogo {
-    /*display: none;*/
-    width: 35%;
-    height: auto;
     position: absolute;
     top: 100px;
-    left: 20%;
+    left: 33%;
+    width: 530px;
+    height: auto;
     animation: surgir 1.5s linear;
 }
 
 .botaoStart {
-    /*display: none;*/
-    width: 10%;
-    height: auto;
     position: absolute;
-    top: 380px;
-    left: 30%;
+    top: 150px;
+    left: 15px;
+    width: 140px;
+    height: auto;
     margin: 30px 0px 0px 0px;  
     cursor: pointer;
     animation: respirar 3s linear infinite;
@@ -37,30 +36,52 @@
 }
 
 #carrasco {
-    display: ;
-    width: 380px;
-    height: auto;
     position: absolute;
-    top: 60px;
-    left: 210px;   
+    top: 50px;
+    left: 160px;   
+    width: 320px;
+    height: auto;
 }
 
 #cabeca, #tronco, #bracoDireito, #bracoEsquerdo, #pernaDireita, #pernaEsquerda {
-    display: ;
-    width: auto;
-    height: 150px;
     position: absolute;
-    top: 200px;
-    left: 350px;
+    top: 173px;
+    left: 280px;
+    width: auto;
+    height: 120px;
 }
 
-#palavraOculta {
-    font-family: 'Germania One', 'Arial';
-    font-size: 51px;
-    letter-spacing: 3px;
+.resultados {
     position: absolute;
-    left: 40%;
+    left: 530px;
     top: 30%;
+
+}
+
+#totalAcertos {
+    position: absolute;
+    display: flex;
+    align-items: left;
+    top: -100px;
+    left: -30px;
+    width: 420px;
+    height: 50px;
+}
+
+#totalAcertos img {
+    padding-right: 10px;
+    width: 50px;
+}
+
+.palavraOculta {
+	position: relative;
+	top: 63px;
+	left: -40px;
+    font-family: 'Germania One', 'Arial';
+    font-size: 45px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
 }
 
 @keyframes surgir {

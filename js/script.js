@@ -60,6 +60,7 @@ function proximaPalavraOculta () {
 	avisos.textContent = "";
 	letrasErradas = 0;
 	respostaOculta = [];
+	ocultaTodos(listaForca);
 	reiniciaTeclado();
 	novaResposta();
 	imprimePalavraOculta();
@@ -97,7 +98,6 @@ function confereLetra() {
 
 function fimDaPalavra() {
 		ocultaTodos(listaInGame);
-		ocultaTodos(listaForca);
 		reiniciaTeclado();
 	if (acertouPalavra) {
 		avisos.textContent = 'Palavra correta!';

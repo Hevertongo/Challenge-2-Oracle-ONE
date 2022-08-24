@@ -58,6 +58,21 @@
 
 }
 
+#avisos {
+    position: absolute;
+    top: 67px;
+    left: -86px;
+    font-size: 80px;
+    font-family: 'Germania One', 'Arial';
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px 2px #000;
+    cursor: pointer;
+}
+
+
 #totalAcertos {
     position: absolute;
     display: flex;
@@ -75,13 +90,29 @@
 
 .palavraOculta {
 	position: relative;
-	top: 63px;
-	left: -40px;
+	top: -35px;
+	left: -30px;
     font-family: 'Germania One', 'Arial';
     font-size: 45px;
+    padding: 7px;
+    padding-left: 12px;
+    padding-bottom: 10px;
     color: white;
+    border-radius: 12px;
     text-transform: uppercase;
     letter-spacing: 10px;
+}
+
+#dica {
+    position: relative;
+    top: 90px;
+    left: -30px;
+    padding: 3px;
+    padding-left: 9px;
+    color: #fdbf66;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 25px;
+    border-radius: 12px;
 }
 
 @keyframes surgir {

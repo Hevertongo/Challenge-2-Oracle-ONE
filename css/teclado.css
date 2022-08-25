@@ -24,7 +24,7 @@
 .linhaTeclas .letraClicada {
 	cursor: default;
 	color: transparent;
-    text-shadow: none;
+    /*text-shadow: none;*/
 }
 
 a:hover {

@@ -30,11 +30,9 @@ var dicas = [
 ];
 
 // Chamadas de Funções
-
 	botaoStart.onclick = inicia;
 	botaoRecomecar.onclick = finaliza;
 	botaoPulaEssa.onclick = pulaEssa;
-	inicia();
 
 // Funções
 function inicia() {
@@ -100,6 +98,7 @@ function fimDaPalavra() {
 		ocultaTodos(listaInGame);
 		reiniciaTeclado();
 	if (acertouPalavra) {
+		ocultaTodos(listaForca);
 		avisos.textContent = 'Palavra correta!';
 	} else {
 		palavraOculta.textContent = resposta;
